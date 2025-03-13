@@ -1,18 +1,18 @@
 'use strict'
-gBoard = {
-    
- minesAroundCount: 4,
- isCovered: true,
- isMine: false,
- isMarked: false
+var gBoard = {
+
+    minesAroundCount: 4,
+    isCovered: true,
+    isMine: false,
+    isMarked: false
 }
-gLevel = {
+var gLevel = {
     SIZE: 4,
     MINES: 2
-   }
-   gGame = {
+}
+var gGame = {
     isOn: false,
     revealedCount: 0,
     markedCount: 0,
     secsPassed: 0
-   }
+}
